@@ -1,0 +1,12 @@
+.t-shirt{
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.t-shirt img{
+   
+    height: 250px;
+    padding: auto;
+}
