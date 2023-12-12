@@ -10,6 +10,7 @@ import Home from './component/Home/Home.jsx';
 import Main from './component/Layout/Main.jsx';
 import Orderrevew from './component/Orderrevew/Orderrevew.jsx';
 import About from './component/About/About.jsx';
+import Grandpa from './component/Grandpa/Grandpa.jsx';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,11 @@ const router = createBrowserRouter([
       {
         path: '/review',
         element: <Orderrevew></Orderrevew>
+      },
+      {
+        path: '/grandpa',
+        element: <Grandpa></Grandpa>
+
       },
       {
         path: '/about',

@@ -6,6 +6,7 @@ const Hader = () => {
             <Link to='/'>Home</Link>
             <Link to='review'>review</Link>
             <Link to='about'>About</Link>
+            <Link to='grandpa'>Grandpa</Link>
             <Link to='connect'>Connect</Link>
 
 

@@ -1,4 +1,4 @@
-
+import './cart.css'
 const Cart = ({ cart, handelRemovCard }) => {
     let message;
     if (cart.length == 0) {
@@ -12,7 +12,8 @@ const Cart = ({ cart, handelRemovCard }) => {
     }
     return (
         <div>
-            <p>This is a cart :{cart.length}</p>
+            <p className={cart.length === 1 ? 'blue' : 'red'}
+            >This is a cart :{cart.length}</p>
             {message}
             {
                 cart.map(teshirt =>
