@@ -1,14 +1,14 @@
 import Friend from "../Friend/Friend";
 
 
-const Cusion = ({children,hasFrind}) => {
+const Cusion = ({children,hasFrind,ring}) => {
     return (
         <div>
             <p>cusin</p>
             {
                 <p><small>{children}</small></p>
             }
-            {hasFrind && <Friend></Friend>}
+            {hasFrind && <Friend ring={ring}></Friend>}
         </div>
     );
 };

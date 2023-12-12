@@ -1,9 +1,13 @@
+import { useContext } from "react";
+import { RingContext } from "../Grandpa/Grandpa";
 
-const Spaicle = ({ring}) => {
+const Spaicle = () => {
+    const angti = useContext(RingContext)
     return (
-        <div>
+       
+   <div>
             <h4>Spasile</h4>
-            <p>Ring:{ring}</p>
+            <p>Ring:{angti}</p>
         </div>
     );
 };
